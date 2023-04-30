@@ -1,0 +1,35 @@
+add r1 r2 r3
+add r4 r5 r6
+sw r1 0(r0)
+and r1 r2 r3
+cas r1 r2 r3
+lws r1 0 0
+sub r1 r2 r3
+cmp r1 r2 r3
+jr r1 r2 r3
+andi r1 , r2 , 1
+addi r1 , r2 , 1
+lw r1 , (r0)0
+sw r6 , (r0)1
+beq r1 , r1 , 1
+lui 2
+j 6
+jal 3
+
+062980
+069700
+142000
+02980
+22980
+42000
+82980
+A2980
+C2980
+E2801
+102801
+122000
+14C001
+162401
+1C0002
+180006
+1A0003
